@@ -4,22 +4,22 @@ This project is a simple Todo App built with React and Redux Toolkit. It include
 
 ## Features
 
-- **Add Todo**: Add new tasks to your list.
-- **Edit Todo**: Modify existing tasks.
-- **Remove Todo**: Delete tasks from your list.
-- **Toggle Completion**: Mark tasks as completed or incomplete.
-- **Local Storage**: Todos persist in local storage, so they stay available after refreshing the page.
+* **Add Todo**: Add new tasks to your list.
+* **Edit Todo**: Modify existing tasks.
+* **Remove Todo**: Delete tasks from your list.
+* **Toggle Completion**: Mark tasks as completed or incomplete.
+* **Local Storage**: Todos persist in local storage, so they stay available after refreshing the page.
 
 ## Demo
 
-Here's a quick demo of how the app works: Demo Link _(Add a demo link if available)_
+Here's a quick demo of how the app works: Demo Link *(Add a demo link if available)*
 
 ## Tech Stack
 
-- **React**: User interface.
-- **Redux Toolkit**: State management.
-- **React-Redux**: To connect Redux state with React components.
-- **Local Storage**: Persist todos on the client-side.
+* **React**: User interface.
+* **Redux Toolkit**: State management.
+* **React-Redux**: To connect Redux state with React components.
+* **Local Storage**: Persist todos on the client-side.
 
 ## Getting Started
 
@@ -30,20 +30,17 @@ Make sure you have Node.js and npm installed.
 ### Installation
 
 1. **Clone the repository:**
-
 ```bash
-git clone https://github.com/AnkitJha209/modern-todo-rtk.git
+git clone https://github.com/your-username/todo-app-redux-toolkit.git
 cd todo-app-redux-toolkit
 ```
 
 2. **Install dependencies:**
-
 ```bash
 npm install
 ```
 
 3. **Start the development server:**
-
 ```bash
 npm start
 ```
@@ -81,12 +78,12 @@ Here's an overview of the main files and folders in this project:
 
 The `todosSlice.js` file defines the state and reducers for managing todos using Redux Toolkit. Here's a summary of the main reducers:
 
-- **addTodo**: Adds a new todo to the list.
-- **removeTodo**: Removes a todo by its ID.
-- **editTodo**: Edits the text of a specific todo.
-- **toggleComplete**: Toggles the completion status of a todo.
-- **loadFromLocalStorage**: Loads todos from local storage on initial load.
-- **saveToLocalStorage**: Persists todos to local storage on every state update.
+* **addTodo**: Adds a new todo to the list.
+* **removeTodo**: Removes a todo by its ID.
+* **editTodo**: Edits the text of a specific todo.
+* **toggleComplete**: Toggles the completion status of a todo.
+* **loadFromLocalStorage**: Loads todos from local storage on initial load.
+* **saveToLocalStorage**: Persists todos to local storage on every state update.
 
 ## Persisting Todos to Local Storage
 
