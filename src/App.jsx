@@ -5,11 +5,11 @@ import TodoList from './components/TodoList'
 function App() {
 
   return (
-    <>
-      <h1>Todo</h1>
+    <div className='h-screen flex flex-col gap-5 items-center mt-16'>
+      <h1 className='text-5xl font-bold text-gray-600'>Modern Todo RTK</h1>
       <TodoInput />
       <TodoList />
-    </>
+    </div>
   )
 }
 
