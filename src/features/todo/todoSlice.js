@@ -24,8 +24,13 @@ export const todoSlice = createSlice({
                 todo.id === action.payload ? todo.toggleComplete = !(todo.toggleComplete) : todo.toggleComplete = todo.toggleComplete
             ))
         },
+        updateTodo: (state, action) => {
+            state.todos.forEach(todo => (
+                todo.id === action.payload.id ? todo.text = action.payload.text : todo.text = todo.text
+            ))
+        }
     }
 })
 
-export const {addTodo, removeTodo, isCompleted} = todoSlice.actions
+export const {addTodo, removeTodo, isCompleted, updateTodo} = todoSlice.actions
 export default todoSlice.reducer
