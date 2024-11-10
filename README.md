@@ -45,7 +45,6 @@ npm install
 npm start
 ```
 
-The app will be available at http://localhost:3000.
 
 ## Project Structure
 
@@ -83,7 +82,6 @@ The `todosSlice.js` file defines the state and reducers for managing todos using
 * **editTodo**: Edits the text of a specific todo.
 * **toggleComplete**: Toggles the completion status of a todo.
 * **loadFromLocalStorage**: Loads todos from local storage on initial load.
-* **saveToLocalStorage**: Persists todos to local storage on every state update.
 
 ## Persisting Todos to Local Storage
 
